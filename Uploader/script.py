@@ -26,28 +26,28 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hi {} 
+**Hi** {} 
 
-I ᴀᴍ Pᴏᴡᴇʀғᴜʟ Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ
+**I ᴀᴍ Pᴏᴡᴇʀғᴜʟ Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ**
  
 """
 
     HELP_TEXT = """
 
-# Sᴇɴᴅ Mᴇ Tʜᴇ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ | Yᴛᴅʟ | Dɪʀᴇᴄᴛ Lɪɴᴋѕ.
+# **Sᴇɴᴅ Mᴇ Tʜᴇ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ | Yᴛᴅʟ | Dɪʀᴇᴄᴛ Lɪɴᴋѕ.**
 
-# Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇѕɪʀᴇᴅ Oᴘᴛɪᴏɴ..
+# **Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇѕɪʀᴇᴅ Oᴘᴛɪᴏɴ..**
 
-# Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ‌‌..
+# **Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ‌‌..**
  
 """
 
 # give credit to developer
 
     ABOUT_TEXT = """
-<b>♻️ Mʏ Nᴀᴍᴇ</b> : Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ
+<b>♻️ Mʏ Nᴀᴍᴇ</b> : **Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ**
 
-<b>🌀 Pᴏᴡᴇʀᴇᴅ Bʏ</b> : <a href="https://t.me/A7_SYR">@A7_SYR</a>
+<b>🌀 Pᴏᴡᴇʀᴇᴅ Bʏ</b> : **@A7_SYR**
 
 <b>📑 Lᴀɴɢᴜᴀɢᴇ :</b> <a href="https://www.python.org/">Python 3.10.5</a>
 
