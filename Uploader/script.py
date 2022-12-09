@@ -117,7 +117,7 @@ class Translation(object):
     FORMAT_SELECTION = "**Nᴏᴡ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇѕɪʀᴇᴅ Fᴏʀᴍᴀᴛѕ**"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     DOWNLOAD_START = "**Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ**⌛\n\n <i>{} </i>"
-    UPLOAD_START = "<i>{} </i>\n\n📤 **Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀѕᴇ Wᴀɪᴛ**"
+    UPLOAD_START = "<i> </i>\n\n📤 **Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀѕᴇ Wᴀɪᴛ**"
     RCHD_TG_API_LIMIT = "**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Iɴ** {} Sᴇᴄᴏɴᴅѕ.\nDᴇᴛᴇᴄᴛᴇᴅ Fɪʟᴇ Sɪᴢᴇ: {}\nSᴏʀʀʏ. ʙᴜᴛ, ɪ ᴄᴀɴɴᴏᴛ ᴜᴘʟᴏᴀᴅ ғɪʟᴇѕ ɢʀᴇᴀᴛᴇʀ ᴛʜᴀɴ 2ɢʙ ᴅᴜᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʟɪᴍɪᴛᴀᴛɪᴏɴѕ.."
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Mᴇᴅɪᴀ Cʟᴇᴀʀᴇᴅ Sᴜᴄᴄᴇѕғᴜʟʟʏ."
