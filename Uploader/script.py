@@ -28,42 +28,39 @@ class Translation(object):
     START_TEXT = """
 Hi {} 
 
-I am Powerful Url Uploader Bot
+I ᴀᴍ Pᴏᴡᴇʀғᴜʟ Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ
  
 """
 
     HELP_TEXT = """
 
-# Send me the Google Drive | ytdl | direct links.
+# Sᴇɴᴅ Mᴇ Tʜᴇ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ | Yᴛᴅʟ | Dɪʀᴇᴄᴛ Lɪɴᴋѕ.
 
-# Select the desired option.
+# Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇѕɪʀᴇᴅ Oᴘᴛɪᴏɴ..
 
-# Then be relaxed your file will be uploaded soon..
+# Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ‌‌..
  
 """
 
 # give credit to developer
 
     ABOUT_TEXT = """
-<b>♻️ My Name</b> : Url Uploader Bot
+<b>♻️ Mʏ Nᴀᴍᴇ</b> : Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ
 
-<b>🌀 Channel</b> : <a href="https://t.me/TMWAD">@TMWAD</a>
+<b>🌀 Pᴏᴡᴇʀᴇᴅ Bʏ</b> : <a href="https://t.me/A7_SYR">@A7_SYR</a>
 
-<b>🌺 Heroku</b> : <a href="https://heroku.com/">Heroku</a>
+<b>📑 Lᴀɴɢᴜᴀɢᴇ :</b> <a href="https://www.python.org/">Python 3.10.5</a>
 
-<b>📑 Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
+<b>🇵🇲 Fʀᴀᴍᴇᴡᴏʀᴋ :</b> <a href="https://docs.pyrogram.org/">Pyrogram 2.0.30</a>
 
-<b>🇵🇲 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 2.0.30</a>
-
-<b>👲 Developer :</b> <a href="https://t.me/kinu6">@kinu6</a>
 
 """
 
     PROGRESS = """
-🔰 Speed : {3}/s\n\n
-🌀 Done : {1}\n\n
-🎥 Tᴏᴛᴀʟ sɪᴢᴇ  : {2}\n\n
-⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
+🚀 Sᴘᴇᴇᴅ : {3}/s\n\n
+✅ Dᴏɴᴇ : {1}\n\n
+💿 Tᴏᴛᴀʟ Sɪᴢᴇ  : {2}\n\n
+⏳ Tɪᴍᴇ Lᴇғᴛ : {4}\n\n
 """
     ID_TEXT = """
 🆔 Your Telegram ID 𝐢𝐬 :- <code>{}</code>
@@ -90,40 +87,40 @@ I am Powerful Url Uploader Bot
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('❓ Help', callback_data='help'),
-            InlineKeyboardButton('🦊 About', callback_data='about')
+            InlineKeyboardButton('❓ Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🦊 Aʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 Cʟᴏѕᴇ', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
-            InlineKeyboardButton('🦊 About', callback_data='about')
+            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('🦊 Aʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 Cʟᴏѕᴇ', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
-            InlineKeyboardButton('❓ Help', callback_data='help')
+            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('❓ Hᴇʟᴘ', callback_data='help')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 Cʟᴏѕᴇ', callback_data='close')
         ]]
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('📛 Cʟᴏѕᴇ', callback_data='close')
         ]]
     )
-    FORMAT_SELECTION = "Now Select the desired formats"
+    FORMAT_SELECTION = "**Nᴏᴡ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇѕɪʀᴇᴅ Fᴏʀᴍᴀᴛѕ**"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
-    DOWNLOAD_START = "Trying to Download ⌛\n\n <i>{} </i>"
-    UPLOAD_START = "<i>{} </i>\n\n📤 Uploading Please Wait "
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
+    DOWNLOAD_START = "**Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ**⌛\n\n <i>{} </i>"
+    UPLOAD_START = "<i>{} </i>\n\n📤 **Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀѕᴇ Wᴀɪᴛ**"
+    RCHD_TG_API_LIMIT = "**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Iɴ** {} Sᴇᴄᴏɴᴅѕ.\nDᴇᴛᴇᴄᴛᴇᴅ Fɪʟᴇ Sɪᴢᴇ: {}\nSᴏʀʀʏ. ʙᴜᴛ, ɪ ᴄᴀɴɴᴏᴛ ᴜᴘʟᴏᴀᴅ ғɪʟᴇѕ ɢʀᴇᴀᴛᴇʀ ᴛʜᴀɴ 2ɢʙ ᴅᴜᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʟɪᴍɪᴛᴀᴛɪᴏɴѕ.."
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Mᴇᴅɪᴀ Cʟᴇᴀʀᴇᴅ Sᴜᴄᴄᴇѕғᴜʟʟʏ."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_VOID_FORMAT_FOUND = "ERROR... <code>{}</code>"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    NO_VOID_FORMAT_FOUND = "Eʀʀᴏʀ... <code>{}</code>"
+    SLOW_URL_DECED = "Gᴏѕʜ ᴛʜᴀᴛ ѕᴇᴇᴍѕ ᴛᴏ ʙᴇ ᴀ ᴠᴇʀʏ ѕʟᴏᴡ ᴜʀʟ. ѕɪɴᴄᴇ ʏᴏᴜ ᴡᴇʀᴇ ѕᴄʀᴇᴡɪɴɢ ᴍʏ ʜᴏᴍᴇ, ɪ ᴀᴍ ɪɴ ɴᴏ ᴍᴏᴏᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜɪѕ ғɪʟᴇ. ᴍᴇᴀɴᴡʜɪʟᴇ, ᴡʜʏ ᴅᴏɴ'ᴛ ʏᴏᴜ ᴛʀʏ ᴛʜɪѕ:==> https://shrtz.me/PtsVnf6 ᴀɴᴅ ɢᴇᴛ ᴍᴇ ᴀ ғᴀѕᴛ ᴜʀʟ ѕᴏ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ, ᴡɪᴛʜᴏᴜᴛ ᴍᴇ ѕʟᴏᴡɪɴɢ ᴅᴏᴡɴ ғᴏʀ ᴏᴛʜᴇʀ ᴜѕᴇʀѕ."
